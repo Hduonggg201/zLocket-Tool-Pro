@@ -115,7 +115,18 @@ class zLocket:
         self.VERSION_TOOL="v1.0.6"
         self.TARGET_FRIEND_UID=target_friend_uid if target_friend_uid else None
         self.PROXY_LIST=[
-            # 'https://thanhdieu.com/api/list/free-proxy.txt',
+            'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt'
+            'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt',
+            'https://raw.githubusercontent.com/ObcbO/getproxy/master/file/http.txt',
+            'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
+            'https://github.com/ObcbO/getproxy/blob/master/file/https.txt',
+            'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt',
+            'https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/http.txt',
+            'https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/http.txt',
+            'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt',
+            'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt'
+            'https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt'
+            'https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&protocol=http&proxy_format=ipport&format=text&timeout=20000'
         ]
         self.print_lock=threading.Lock()
         self.successful_requests=0
